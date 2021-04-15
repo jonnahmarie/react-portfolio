@@ -1,0 +1,9 @@
+body {
+    background: url('../img/pastel_background-01.png') no-repeat top fixed;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.rounded {
+    border-radius: 50%;
+}
