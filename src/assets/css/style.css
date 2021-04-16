@@ -7,3 +7,29 @@ body {
 .rounded {
     border-radius: 50%;
 }
+
+.name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px 3px #714ce0;
+}
+
+.subheading {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8em;
+    margin-top: -2%;
+}
+
+.footer {
+    bottom: 0;
+    margin-top: 4%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
