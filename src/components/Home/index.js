@@ -1,20 +1,14 @@
 import React from 'react';
 
 import Navbar from '../Navbar';
-import Work from '../Work';
-import Skills from '../Skills';
-import Education from '../Education';
-import About from '../About';
+import Layout from '../Layout';
 import Footer from '../Footer';
 
 const Home = () => {
     return(
-        <div>
+        <div display="flex">
             <Navbar />
-            <Work />
-            <Skills />
-            <Education />
-            <About />
+            <Layout />
             <Footer />
         </div>
     )
