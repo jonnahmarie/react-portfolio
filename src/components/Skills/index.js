@@ -22,7 +22,7 @@ const Skills = () => {
     
     return(
         <Container>
-            <Grid container direction='row' justify='center' alignItems='flex-start' spacing={10}>
+            <Grid container direction='row' justify='center' alignItems='flex-start' spacing={8}>
                 <Grid item xs={3}>
                     <h3>Front End</h3>
                     <List>
@@ -161,6 +161,12 @@ const Skills = () => {
                             <i className="devicon-photoshop-plain"></i>
                         </ListItemIcon>
                         <ListItemText primary='Photoshop' />
+                    </ListItem>
+                    <ListItem className={classes.item}>
+                        <ListItemIcon className={classes.icon}>
+                            <i className="devicon-handlebars-plain"></i>
+                        </ListItemIcon>
+                        <ListItemText primary='Handlebars' />
                     </ListItem>
                 </Grid>
             </Grid>

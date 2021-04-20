@@ -31,7 +31,7 @@ const AccordionSummary = withStyles({
   root: {
     flexDirection: 'column',
     
-    '&:hover': {
+    '&:hover, &.Mui-focusVisible': {
       backgroundColor: '#e8effd'
     }
   },
