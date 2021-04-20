@@ -39,9 +39,9 @@ body {
     font-weight: 500;
 }
 
-.titlecard {
-    object-fit: contain;
-    height: 100%;
+.projectDiv {
+    width: 400px;
+    text-align: center;
 }
 
 .maincontainer {
@@ -49,4 +49,9 @@ body {
     height: 60vh;
     background-color: #fff;
     border-radius: 5px
+}
+
+.projectImg {
+    max-width: 100%;
+    height: auto;
 }
