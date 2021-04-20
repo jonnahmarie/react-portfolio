@@ -10,6 +10,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 const useStyles = makeStyles((theme) => ({
     icon: {
         minWidth: '30px',
+        color: '#9c2fe0'
     },
     item: {
         padding: 0
@@ -21,9 +22,6 @@ const Skills = () => {
     
     return(
         <Container>
-            <div style={{textAlign:'center'}}>
-                <h1>Skills</h1>
-            </div>
             <Grid container direction='row' justify='center' alignItems='flex-start' spacing={10}>
                 <Grid item xs={3}>
                     <h3>Front End</h3>

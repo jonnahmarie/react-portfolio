@@ -13,11 +13,8 @@ import DayPlanner from '../../assets/img/projects/day-planner.jpg';
 const Work = () => {
     return(
         <Container>
-            <div style={{textAlign:'center'}}>
-                <h1>Projects</h1>
-            </div>
             <Grid container justify='space-between' alignItems='center' direction=
-            'row' spacing={4}>
+                'row' spacing={4}>
                 <Grid item className='itemDiv' xs={6} lg={4}>
                     <h3>Pop Culture Search Engine</h3>
                     <img src={UWU} alt="UWU Project" className='projectImg' />
@@ -108,7 +105,7 @@ const Work = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-            </Grid>            
+            </Grid>     
         </Container>
     )
 }

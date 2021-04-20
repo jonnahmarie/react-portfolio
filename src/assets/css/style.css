@@ -7,6 +7,14 @@ body {
     border-radius: 50%;
 }
 
+h1 {
+    color: #714ce0;
+}
+
+h3 {
+    color: #4e2e8f;
+}
+
 .navbar {
     background: url('../img/pastel_background-01.png') no-repeat;
     background-size: 100% 100%;
@@ -35,18 +43,13 @@ body {
     text-align: center;
     color: #714ce0;
     font-weight: 500;
+    margin-top: calc(5% + 40px);
+    bottom: 0;
 }
 
 .itemDiv {
     width: 400px;
     text-align: center;
-}
-
-.maincontainer {
-    margin-top: 2%;
-    height: 60vh;
-    background-color: #fff;
-    border-radius: 5px
 }
 
 .projectImg {
