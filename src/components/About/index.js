@@ -8,10 +8,10 @@ const About = () => {
     return(
         <Container>
             <Grid container>
-                <Grid item xs={4}>
+                <Grid item xs={12} md={4}>
                     <img src={Avatar} alt='avatar' className='rounded' style={{maxWidth:'70%'}} />
                 </Grid>
-                <Grid item xs={8}>
+                <Grid item xs={12} md={8}>
                     <p>
                         I am a web developer that would describe myself as optimistic and growth-oriented. I have had an interest in web design ever since the tender age of 9 when I saw how a few lines of basic HTML could turn my Neopets profile pages ('userlookups') from drab to fab. This interest spread to Myspace and from there spread to me creating blog templates for Blogger.com. Despite spending my adolescence teaching myself the fundamentals of HTML and CSS, it never occurred to me that I could actually pursue this as a career. After a series of odd jobs and receiving my Bachelor's degree in Zoology, I made the decision to turn my childhood hobby into my adult career path.
                     </p>
