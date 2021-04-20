@@ -18,7 +18,7 @@ const Work = () => {
             </div>
             <Grid container justify='space-between' alignItems='center' direction=
             'row' spacing={4}>
-                <Grid item className='projectDiv' xs={6} lg={4}>
+                <Grid item className='itemDiv' xs={6} lg={4}>
                     <h3>Pop Culture Search Engine</h3>
                     <img src={UWU} alt="UWU Project" className='projectImg' />
                     <p>
@@ -33,7 +33,7 @@ const Work = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item className='projectDiv' xs={6} lg={4}>
+                <Grid item className='itemDiv' xs={6} lg={4}>
                     <h3>Code Quiz</h3>
                     <img src={CodeQuiz} alt="Code Quiz" className='projectImg' />
                     <p>
@@ -48,7 +48,7 @@ const Work = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item className='projectDiv' xs={6} lg={4}>
+                <Grid item className='itemDiv' xs={6} lg={4}>
                     <h3>Burger Logger</h3>
                     <img src={Burger} alt="Burger Logger" className='projectImg' />
                     <p>
@@ -63,7 +63,7 @@ const Work = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item className='projectDiv' xs={6} lg={4}>
+                <Grid item className='itemDiv' xs={6} lg={4}>
                     <h3>C'est Belle Events</h3>
                     <img src={Cest} alt="C'est Belle Events" className='projectImg' />
                     <p>
@@ -78,7 +78,7 @@ const Work = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item className='projectDiv' xs={6} lg={4}>
+                <Grid item className='itemDiv' xs={6} lg={4}>
                     <h3>Employee Directory</h3>
                     <img src={EmployeeDex} alt="EmployeeDex" className='projectImg' />
                     <p>
@@ -93,7 +93,7 @@ const Work = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item className='projectDiv' xs={6} lg={4}>
+                <Grid item className='itemDiv' xs={6} lg={4}>
                     <h3>Day Planner</h3>
                     <img src={DayPlanner} alt="Day Planner" className='projectImg' />
                     <p>
