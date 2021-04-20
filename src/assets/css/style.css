@@ -39,7 +39,7 @@ body {
     font-weight: 500;
 }
 
-.projectDiv {
+.itemDiv {
     width: 400px;
     text-align: center;
 }
@@ -54,4 +54,10 @@ body {
 .projectImg {
     max-width: 100%;
     height: auto;
+}
+
+.skill {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
