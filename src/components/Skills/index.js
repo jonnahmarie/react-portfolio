@@ -25,7 +25,7 @@ const Skills = () => {
                 <h1>Skills</h1>
             </div>
             <Grid container direction='row' justify='center' alignItems='flex-start' spacing={10}>
-                <Grid item xs={4}>
+                <Grid item xs={3}>
                     <h3>Front End</h3>
                     <List>
                             <ListItem className={classes.item}>
@@ -78,7 +78,7 @@ const Skills = () => {
                             </ListItem>
                     </List>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={3}>
                     <h3>Back End</h3>
                     <ListItem className={classes.item}>
                         <ListItemIcon className={classes.icon}>
@@ -111,7 +111,7 @@ const Skills = () => {
                         <ListItemText primary='Sequelize' />
                     </ListItem>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={3}>
                     <h3>Tools</h3>
                     <ListItem className={classes.item}>
                         <ListItemIcon className={classes.icon}>
@@ -148,6 +148,21 @@ const Skills = () => {
                             <i className="devicon-visualstudio-plain"></i>
                         </ListItemIcon>
                         <ListItemText primary='Visual Studio Code' />
+                    </ListItem>
+                </Grid>
+                <Grid item xs={3}>
+                    <h3>Other</h3>
+                    <ListItem className={classes.item}>
+                        <ListItemIcon className={classes.icon}>
+                            <i className="devicon-illustrator-plain"></i>
+                        </ListItemIcon>
+                        <ListItemText primary='Illustrator' />
+                    </ListItem>
+                    <ListItem className={classes.item}>
+                        <ListItemIcon className={classes.icon}>
+                            <i className="devicon-photoshop-plain"></i>
+                        </ListItemIcon>
+                        <ListItemText primary='Photoshop' />
                     </ListItem>
                 </Grid>
             </Grid>

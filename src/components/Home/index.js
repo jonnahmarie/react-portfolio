@@ -6,7 +6,7 @@ import Footer from '../Footer';
 
 const Home = () => {
     return(
-        <div display="flex">
+        <div>
             <Navbar />
             <Layout />
             <Footer />
