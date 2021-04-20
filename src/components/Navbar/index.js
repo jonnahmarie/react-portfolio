@@ -2,11 +2,11 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div>
-        <div className="name">
+    <div className='navbar'>
+        <div className='name'>
             Jonnah Marie Pangilinan
         </div>
-        <div className="subheading">
+        <div className='subheading'>
             Full Stack Developer
         </div>
     </div>
