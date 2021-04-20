@@ -10,6 +10,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     icon: {
         minWidth: '30px',
+        color: '#9c2fe0'
     },
     item: {
         padding: 0
@@ -21,11 +22,9 @@ const Education = () => {
 
     return(
         <Container>
-            <div style={{textAlign:'center'}}>
-                <h1>Education</h1>
-            </div>
             <Grid container>
-                <Grid item xs={12}>
+                <Grid item xs={4} />
+                <Grid item xs={6} >
                     <List>
                         <ListItem className={classes.item}>
                             <ListItemIcon className={classes.icon}>
@@ -41,6 +40,7 @@ const Education = () => {
                         </ListItem>
                     </List>
                 </Grid>
+                <Grid item xs={2} />
             </Grid>
         </Container>
     )
