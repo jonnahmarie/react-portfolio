@@ -1,11 +1,11 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
 
 const Footer = () => {
     return(
-        <div className='footer'>
-            {/* <span>Developed and Designed by Jonnah Marie Pangilinan &copy; 2021</span> */}
-        
-        </div>
+        <Container>
+            <span>Developed and Designed by Jonnah Marie Pangilinan &copy; 2021</span>
+        </Container>
     )
 }
 
