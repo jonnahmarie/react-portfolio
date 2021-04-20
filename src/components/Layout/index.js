@@ -1,43 +1,31 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import Paper  from '@material-ui/core/Paper';
 
-import About from '../About/TitleCard.js';
-import Education from '../Education/TitleCard.js';
-import Skills from '../Skills/TitleCard.js';
-import Work from '../Work/TitleCard.js';
-
-const useStyles = (makeStyles(theme => ({
-    paper: {
-        padding: '1%',
-        marginTop: '2%',
-        height: theme.spacing(70)
-    }
-})))
+import About from '../About';
+import Education from '../Education';
+import Skills from '../Skills';
+import Work from '../Work';
 
 const Layout = () => {
-    const classes = useStyles();
-
     return(
         <Container>
-            <Paper elevation={3} className={classes.paper}>
-                <Grid container spacing={0}>
-                    <Grid item xs={3}>
+            <div className='maincontainer'>
+                <Grid container spacing={1} direction='column' justify='space-evenly' alignItems='center'>
+                    <Grid item>
                         <Work />
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item>
                         <Skills />
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item>
                         <Education />
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item>
                         <About />
                     </Grid>
                 </Grid>
-            </Paper>
+            </div>
         </Container>
     )
 }

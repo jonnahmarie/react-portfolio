@@ -1,11 +1,16 @@
 body {
-    background: url('../img/pastel_background-01.png') no-repeat top fixed;
-    background-size: cover;
     font-family: 'Quicksand', sans-serif;
+    background-color: #fff;
 }
 
 .rounded {
     border-radius: 50%;
+}
+
+.navbar {
+    background: url('../img/pastel_background-01.png') no-repeat;
+    background-size: 100% 100%;
+    padding: 1%;
 }
 
 .name {
@@ -30,6 +35,18 @@ body {
     bottom: 0;
     margin-top: 4%;
     text-align: center;
-    color: #fff;
+    color: #714ce0;
     font-weight: 500;
+}
+
+.titlecard {
+    object-fit: contain;
+    height: 100%;
+}
+
+.maincontainer {
+    margin-top: 2%;
+    height: 60vh;
+    background-color: #fff;
+    border-radius: 5px
 }
