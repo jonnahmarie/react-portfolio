@@ -16,16 +16,12 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const center = {
-    textAlign:'center'
-}
-
 const Skills = () => {
     const classes = useStyles();
     
     return(
         <Container>
-            <div style={center}>
+            <div style={{textAlign:'center'}}>
                 <h1>Skills</h1>
             </div>
             <Grid container direction='row' justify='center' alignItems='flex-start' spacing={10}>
