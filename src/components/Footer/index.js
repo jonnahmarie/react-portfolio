@@ -33,8 +33,13 @@ const useStyles = makeStyles((theme) => ({
         color: '#e610e2',
         textDecoration: 'none',
         '&:hover, &:active, &.Mui-focusVisible': {
-            color: '#714ce0 '
+            color: '#aac9eb',
+            backgroundColor: '#ecf2fd',
+            borderRadius:'5px'
         }
+    },
+    resumeIcon: {
+        color: '#714ce0',
     }
 }));
 
@@ -51,7 +56,7 @@ const Footer = () => {
                     <IconButton className={classes.icon} aria-label='LinkedIn.com' onClick={() => window.open('https://www.linkedin.com/in/jonnahmariepangilinan/')}><LinkedInIcon /></IconButton>
                 </Grid>
                 <Grid item xs={2}>
-                    <a href={Resume} target='_blank' rel='noreferrer' className={classes.resume}><AssignmentIcon style={{color:'#714ce0'}} /> View Resume</a>
+                    <a href={Resume} target='_blank' rel='noreferrer' className={classes.resume}><AssignmentIcon className={classes.resumeIcon} /> View Resume</a>
                 </Grid>
                 <Grid item xs={3} />
             </Grid>
