@@ -164,6 +164,12 @@ const Skills = () => {
                     </ListItem>
                     <ListItem className={classes.item}>
                         <ListItemIcon className={classes.icon}>
+                            <i className="devicon-hxd-plain"></i>
+                        </ListItemIcon>
+                        <ListItemText primary='XD' />
+                    </ListItem>
+                    <ListItem className={classes.item}>
+                        <ListItemIcon className={classes.icon}>
                             <i className="devicon-handlebars-plain"></i>
                         </ListItemIcon>
                         <ListItemText primary='Handlebars' />
