@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import UWU from '../../assets/img/projects/UWU.gif'
 import CodeQuiz from '../../assets/img/projects/Code-Quiz-Demo.gif';
 import Burger from '../../assets/img/projects/burger.jpg';
-import Cest from '../../assets/img/projects/cest-screenshot.jpg';
+import Grader from '../../assets/img/projects/website-grader.jpg';
 import EmployeeDex from '../../assets/img/projects/employee-dex.jpg';
 import DayPlanner from '../../assets/img/projects/day-planner.jpg';
 
@@ -61,17 +61,17 @@ const Work = () => {
                     </Grid>
                 </Grid>
                 <Grid item className='itemDiv' xs={6} lg={4}>
-                    <h3>C'est Belle Events</h3>
-                    <img src={Cest} alt="C'est Belle Events" className='projectImg' />
+                    <h3>Website Speed Grader</h3>
+                    <img src={Grader} alt="Website Speed Grader" className='projectImg' />
                     <p>
-                        An application built for an established East Coast based event planning business who wanted to maintain a web presence while being maintenance free. This application is built using the MERN stack. 
+                        A website built for a skill test using ReactJS and the CSS framework, Bootstrap.
                     </p>
                     <Grid container alignItems='center' direction='row' spacing={2}>
                         <Grid item xs={6}>
-                            <Button href='https://github.com/RickyBlaze100/cest.github.io' color='primary'>Github Repository</Button>
+                            <Button href='https://github.com/jonnahmarie/website-grader' color='primary'>Github Repository</Button>
                         </Grid>
                         <Grid item xs={6}>
-                            <Button href='https://polar-wave-44598.herokuapp.com/' color='primary'>Live Application</Button>
+                            <Button href='https://rocky-fjord-90032.herokuapp.com/' color='primary'>Live Application</Button>
                         </Grid>
                     </Grid>
                 </Grid>
