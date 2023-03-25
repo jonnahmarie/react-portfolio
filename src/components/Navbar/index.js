@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='name'>
-        Jonnah Marie Pangilinan
+        Jonnah Marie Barratt
       </div>
       <div className='subheading'>
         Full Stack Developer

@@ -9,7 +9,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 
-import Resume from '../../assets/data/JonnahMariePangilinanResume2021.pdf';
+import Resume from '../../assets/data/JonnahMariePangilinanResume2023.pdf';
 
 const useStyles = makeStyles((theme) => ({
     icon: {
@@ -61,7 +61,7 @@ const Footer = () => {
                 <Grid item xs={3} />
             </Grid>
             <span>
-            Powered by <a href='https://reactjs.org/' target='_blank' rel='noreferrer' className={classes.link}>React <i className="devicon-react-original"></i></a> | Developed and Designed by Jonnah Marie Pangilinan &copy; 2021
+            Powered by <a href='https://reactjs.org/' target='_blank' rel='noreferrer' className={classes.link}>React <i className="devicon-react-original"></i></a> | Developed and Designed by Jonnah Marie Barratt &copy; 2023
             </span>
         </Container>
     )
